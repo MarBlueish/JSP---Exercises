@@ -1,0 +1,28 @@
+<html lang="pt">
+    <head>
+        <title>Calculadora - 2</title>
+        <meta charset="utf-8">
+        </head>
+        <header>
+            <h1>Calculadora - 2</h1>
+        </header>
+        <nav>
+        </nav>
+        <section>
+            <!--method (post, get) e action(nome da pagina onde vai enviar os dados)-->
+        <form action="ativ11b.jsp" method="post">
+            <!-- size tamanho visual, maxlenght, numero maximo de caracteres-->
+            Número 1: <input type="text" name="n1" size="15" maxlength="15"><br/>
+            Número 2: <input type="text" name="n2" size="15" maxlength="15"><br/>
+            Operação:<br/>
+            <input type="radio" name="op" value="som">Soma<br/>
+            <input type="radio" name="op" value="dif">Diferença<br/>
+            <input type="radio" name="op" value="div">Divisão<br/>
+            <input type="radio" name="op" value="mult">Multiplicação<br/>
+
+            <input type="submit" value="Calcular">
+            <input type="reset" value="Limpar">
+        </form>
+        </section>
+    </head>
+</html>
